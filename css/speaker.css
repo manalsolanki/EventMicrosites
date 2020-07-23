@@ -1,0 +1,15 @@
+.name{
+    text-align: center  ;
+}
+
+.container{
+    display: flex;
+}
+.container img{
+    width:40%
+}
+.line{
+    width: 150px;
+    background-color: red;
+    height: 2.5px;
+}

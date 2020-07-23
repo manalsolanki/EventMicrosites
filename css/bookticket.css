@@ -1,0 +1,45 @@
+.banner img{
+    height: 55vh;
+    width: 100%;
+}
+.book-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:3em;
+    padding: 1em 7em;
+    
+}
+
+.input-field{
+    padding:1em;   
+    border:none;
+    border-bottom: 2px solid black; 
+    font-size: 1em;
+}
+
+.card-option{
+    display: flex;
+    justify-content: space-between;
+}
+
+.type-ticket{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:3em;
+}
+.payment-card{
+    width:90px;
+    height: 75px;
+}
+.submit-button{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width:40%;
+    justify-self:center;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    background-color: #986620;
+    font-size: 1.5em;
+    color: white;
+}

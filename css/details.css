@@ -1,0 +1,146 @@
+.details-section{
+    position: relative;
+}      
+.details {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.details-img {
+    position: absolute;
+    width: 40%;
+    max-height: 370px;
+}
+.content {
+    padding: 25px;
+}
+.book-details {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(66, 66, 66);
+    
+}
+.book-details  button {
+        margin-right: 25px;
+        line-height: 1.5;
+        font-size: 1rem;
+        color: white;
+        background-color: rgb(45,45,45);
+    color: rgb(255,255,255);
+    line-height: 1;
+    border: 1px solid rgb(45,45,45);
+    padding: 10px 25px;
+    font-family: medium-font;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.details-container{
+    background: linear-gradient( 0deg, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 67%, rgba(239,239,239,1) 85% );
+    z-index: 1;
+    padding: 35px;
+    width: 65%;
+    border-top-left-radius: 25px;
+    color: #424242;
+}
+.contact-info{
+    color: rgb(45,45,45);
+}
+
+.schedule-container{
+    padding: 0px 25px 25px;
+}
+
+.event-day{
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+.timeline{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.track{
+    height: 100%;
+    width: 8px;
+    background-color: #424242;
+}
+.tracker{
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    padding: 5px;
+    border: 1px solid #424242;
+    border-radius: 100%;
+    background-color: #926635;
+    background-clip: content-box;
+    cursor: pointer;
+}
+.description-box {
+    position: relative;
+    width: 55%;
+    padding: 30px;
+    box-shadow: 0 0 15px 1px #424242;
+    border-radius: 5px;
+    display: flex;
+
+}
+.description-box ::before {
+    content: " ";
+    position: absolute;
+    left: -13px;
+    top: 45%;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 13px solid rgb(255,255,255);
+    border-bottom: 13px solid transparent;
+    clear: both;
+}
+
+.date {
+    color: brown;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+.description {
+    color: grey;
+}
+.description-container {
+    padding: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+@media (max-width: 768px) {
+    .details-img {
+        position: relative !important;
+        width: 100% !important;
+    }
+    .details-container {
+        width: auto !important;
+        padding: 25px !important;
+        
+    }
+    .host-description {
+        width: 90% !important;
+    }
+}

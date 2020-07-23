@@ -1,0 +1,140 @@
+/* Header CSS */
+.top-navigation-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 0.5em 2em;
+    margin: 0em;
+    
+}
+.logo{
+    width:200px;
+}
+.navigation-select{
+    display: flex;
+}
+.header-heading{
+    margin: 1em;
+    font-size: 1.5em;
+    font-style: none;
+    text-decoration: none;
+    color:black;
+}
+.header-heading:hover{
+    color:red;
+}
+
+/* Footer Css */
+.container-footer{
+    background-color:#1D1414;
+    color: #FFFDFD;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    /*padding: 1em; */
+    justify-items: center;
+    margin-bottom: 0em;
+    padding: 0em 2em;
+}
+.footer-logo{
+    
+    place-self: center;
+    padding: 1em;
+    margin: 1em;
+}
+.footer-elements{
+    margin: 1em;
+}
+footer a{
+    text-decoration: none;
+    color:#A79D9D;
+    font-family:Montserrat ;
+}
+.social-link{
+    width: 3em;
+}
+.bottom-footer{
+    display: flex;
+    padding:0em 2em;
+    background-color: #272525;
+    justify-content: space-between;
+    color: #A79D9D;
+    margin:0em;
+}
+.item-inline{
+    display: inline;  
+   
+}
+.bottom-list{
+    padding:1em;
+}
+
+
+/* main page */
+.banner-image{
+    height: 60vh;
+    background-image: url(../img/photo-1505373877841-8d25f7d46678.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-color: skyblue;
+}
+.banner-content{
+    background-color: rgb(152, 102, 32, 50%);
+    width: 40%;
+    margin: auto 2em;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+.upcoming-events{
+    padding-left: 3em;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2em;
+}
+.upcoming-events form{
+    padding-right: 1em;
+}
+.search-button{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 1rem;
+    line-height: 2;
+    width: 100%;
+    margin-top: 1em;
+}
+.upcoming-event-container{
+    display: grid;
+    margin-left: 2em;
+    margin-right: 2em;
+    grid-template-columns: repeat(3,1fr);
+}
+.card{
+    margin: 1em;
+    border-radius: 5px;
+	border: 1px solid lightgrey;
+	transition: all 0.3s ease;
+}
+.card img{
+		width: 100%;
+		height: 250px;
+	
+}
+.card:hover{
+    box-shadow: 0 0 10px -1px;
+}
+
+.box-content{
+    padding: 20px 30px;
+}
+.text-color{
+    color:#926635;
+}
+.card-header{
+    margin-bottom: 0em;
+}
+.margin-adjustment{
+    margin-top: 0em;
+}
