@@ -12,4 +12,24 @@
     width: 150px;
     background-color: red;
     height: 2.5px;
+    padding: 0em;
+}
+.about{
+    padding: 3em;
+}
+
+.expertise{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap:4em;
+    grid-row-gap:2em;
+}
+
+.skills{
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #F5EFEF;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 5px;
 }

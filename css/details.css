@@ -38,6 +38,7 @@
     transition: all 0.3s ease;
 }
 
+
 .details-container{
     background: linear-gradient( 0deg, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 67%, rgba(239,239,239,1) 85% );
     z-index: 1;
@@ -87,7 +88,12 @@
     box-shadow: 0 0 15px 1px #424242;
     border-radius: 5px;
     display: flex;
+    background-color: #FFF2F2;
 
+}
+
+.description-box img{
+    width: 150px;
 }
 .description-box ::before {
     content: " ";
@@ -101,7 +107,14 @@
     border-bottom: 13px solid transparent;
     clear: both;
 }
-
+.description-details{
+    margin-left:2em;
+    width:100%;
+}
+.name{
+    text-align: end;
+    color: #986620;
+}
 .date {
     color: brown;
     font-size: 1.5rem;

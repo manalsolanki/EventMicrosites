@@ -2,6 +2,23 @@
     height: 55vh;
     width: 100%;
 }
+.plans-title{
+    padding: 1em 7em;
+}
+.plans{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2em;
+    margin-bottom: 2em;
+}
+.plan-card{
+    color: white;
+    padding: 1em;
+    border:none;
+    border-radius: 5px;
+    background-color: #986620;
+    text-align: center;
+}
 .book-form{
     display: grid;
     grid-template-columns: repeat(2,1fr);
