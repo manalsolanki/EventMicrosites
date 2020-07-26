@@ -47,6 +47,9 @@
     border-top-left-radius: 25px;
     color: #424242;
 }
+.details-container a{
+    color: black;
+}
 .contact-info{
     color: rgb(45,45,45);
 }
@@ -89,6 +92,7 @@
     border-radius: 5px;
     display: flex;
     background-color: #FFF2F2;
+    
 
 }
 
