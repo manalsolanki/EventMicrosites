@@ -14,6 +14,9 @@
 .content {
     padding: 25px;
 }
+.content h2{
+    color:red ;
+}
 .book-details {
     width: 60%;
     display: flex;
@@ -151,6 +154,15 @@
 
 
 @media (max-width: 768px) {
+    .details{
+        display: block;
+    }
+    .plans-title {
+        padding: 1em 4em;
+    }
+    .book-details{
+        width:100%;
+    }
     .details-img {
         position: relative !important;
         width: 100% !important;
@@ -159,6 +171,9 @@
         width: auto !important;
         padding: 25px !important;
         
+    }
+    .description-box{
+        width: 100%;
     }
     .host-description {
         width: 90% !important;

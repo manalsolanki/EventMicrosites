@@ -60,3 +60,35 @@
     font-size: 1.5em;
     color: white;
 }
+
+@media (max-width: 768px){
+    .plans{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .book-form{
+        display: block;
+    }
+    .input-field{
+        width: 100%;
+        margin-top: 1em;
+    }
+    .submit-button{
+        width: auto;
+        margin-top: 1em;
+        display: block;
+        grid-column-start: none;
+    grid-column-end: none;
+    }
+}
+
+
+@media (max-width: 596px){
+    .plans-title {
+        padding: 1em 2em;
+    }
+    .payment-card{
+        width: 75px;
+    }
+        
+    
+}

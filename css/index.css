@@ -143,3 +143,45 @@ footer a{
 .margin-adjustment{
     margin-top: 0em;
 }
+
+
+@media (max-width: 768px){
+    /* Footer-Css */
+    .container-footer{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .bottom-footer{
+        display: block;
+        padding: 1em;
+    }
+    .bottom-footer p{
+        margin: 0em;
+        padding-bottom: 0em;
+    }
+    
+
+    /* Main page */
+   .banner-content {
+        width: 100%;
+    }
+    .upcoming-event-container{
+        display: block;
+    }
+}
+
+@media (max-width: 596px){
+    /* Header Css */
+    .top-navigation-bar{
+        display: block;
+    }
+    .navigation-select{
+        justify-content: space-between;
+        margin-top: 1em;
+    }
+
+    /* Footer Css */
+    .container-footer{
+        display: block;
+        padding-bottom: 1em;
+    }
+}
