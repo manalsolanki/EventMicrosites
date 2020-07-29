@@ -1,4 +1,8 @@
 /* Header CSS */
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
 .top-navigation-bar{
     display: flex;
     align-items: center;
