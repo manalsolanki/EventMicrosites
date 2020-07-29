@@ -115,6 +115,9 @@
     margin-left:2em;
     width:100%;
 }
+.description-details h1{
+    margin: 0em;
+}
 .name{
     text-align: end;
     color: #986620;

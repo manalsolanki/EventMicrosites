@@ -1,6 +1,9 @@
 .name{
     text-align: center  ;
 }
+.font-adjustment{
+    font-size: 3rem;
+}
 
 .container{
     display: flex;
